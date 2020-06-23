@@ -1,0 +1,137 @@
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px 1px;
+    grid-template-areas: ". . . . . ." ". . . . . ." ". . . . . ." ". . . . . ." ". . . . . ." ". . . . . .";
+  }
+
+body{
+    background: rgb(122, 108, 136);
+    background-image: linear-gradient(45deg,rgba(122, 108, 136, 0.5), rgba(47, 101, 172, 0.30));
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 00px;
+    margin-left: 0px;
+}
+.headerContainer{
+
+    height: 15vh;
+    width: auto;
+    margin: 0;
+    background-color: rgb(40,40,40);
+}
+h1{
+    text-decoration: overline;
+    color: rgb(169, 189, 201);
+    text-shadow: 1px 1px 0 white;
+}
+.containerForm{
+    display: grid;
+    width: 85vw;
+    height: 70vh;
+    text-align: center;
+    background-image: linear-gradient(45deg,rgba(255, 242, 172, 0.596) 25%, rgba(202, 26, 108, 0.3));
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    box-shadow: 0px 1px 10px rgba(31, 64, 92, 0.7);
+}
+.textArea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 0.35em;
+    border: none;
+    box-shadow: 0px 2px 0px #999;
+    background-color: rgb(169, 189, 201);
+
+}
+.inputForm{
+    display: flex;
+    background-color: rgb(169, 189, 201);
+    border-style: none;
+    border-radius: 0.35em;
+    box-shadow: 0px 2px 0px #999;
+    color: blueviolet;
+    width: 15em;
+    padding: 0.5em;
+}
+.validationButton{
+    background-color: rgb(182, 77, 117);
+    border-style: none;
+    border-radius: 0.35em;
+    box-shadow: 0px 2px 0px #999;
+    color: rgb(47, 39, 54);
+    width: 10em;
+    padding: 0.5em;
+}
+#levelSchool{
+    text-decoration: none;
+    width: 36em;
+}
+.checkboxContainer{
+    padding-bottom: 2em;
+}
+
+
+/* ==== MENU DEROULANT ====*/
+/*.selectOption {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}    .selectOption select {
+        font-family: 'Arial';
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        padding: 9px 17px;
+        outline: 0;
+        border: 0px hidden #ffffff;
+        border-radius: 7px;
+        background: #a9bdc9;
+        color: #747474;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+        .selectOption select::-ms-expand {
+            display: none;
+        }
+        .selectOption select:hover,
+        .selectOption select:focus {
+            color: #919191;
+            background: #a9bdc9;
+        }
+        .selectOption select:disabled {
+            opacity: 0.2;
+            pointer-events: none;
+        }
+.select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    width: 0px;
+    height: 0px;
+    border: solid #7b7b7b;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.selectOption select:hover ~ .select_arrow,
+.selectOption select:focus ~ .select_arrow {
+    border-color: #000000;
+}
+.selectOption select:disabled ~ .select_arrow {
+    border-top-color: #cccccc;
+}
+*/
