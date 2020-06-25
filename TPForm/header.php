@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +9,8 @@
     <style>
     body{
         display: flex;
-        flex-flow: row wrap;       
+        flex-flow: column wrap; 
+              
     }
     input{
         margin-top: 10px;
